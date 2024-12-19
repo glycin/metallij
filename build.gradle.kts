@@ -56,13 +56,13 @@ dependencies {
 tasks {
     // Set the JVM compatibility versions
     withType<JavaCompile> {
-        sourceCompatibility = "23"
-        targetCompatibility = "23"
+        sourceCompatibility = "17"
+        targetCompatibility = "17"
     }
 }
 
 kotlin{
     compilerOptions {
-        jvmTarget.set(JvmTarget.JVM_23)
+        jvmTarget.set(JvmTarget.JVM_17)
     }
 }
