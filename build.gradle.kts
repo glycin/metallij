@@ -7,8 +7,10 @@ plugins {
     id("org.jetbrains.intellij.platform") version "2.2.0"
 }
 
+val v = "0.0.2"
+
 group = "com.glycin"
-version = "0.0.1"
+version = v
 
 repositories {
     mavenCentral()
@@ -22,7 +24,7 @@ intellijPlatform  {
     pluginConfiguration {
         id = "metallij"
         name = "METALLIJ"
-        version = "0.0.1"
+        version = v
         description = "The most metal plugin to have ever existed..."
 
         ideaVersion {
