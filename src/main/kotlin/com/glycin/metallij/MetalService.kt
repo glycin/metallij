@@ -13,7 +13,6 @@ class MetalService(
     private var metalDocumentListener : MetalDocumentListener? = null
 
     fun rockOn() {
-        println("ROCK ON!!")
         MetalPlayer.init(scope)
         metalDocumentListener = MetalDocumentListener().also {
             EditorFactory.getInstance().eventMulticaster.addDocumentListener(it, this)

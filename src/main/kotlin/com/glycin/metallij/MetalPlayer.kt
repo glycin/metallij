@@ -53,7 +53,7 @@ object MetalPlayer {
     }
 
     fun playSound(sound: Sounds) {
-        println("Playing sound $sound")
+
         try {
             when (sound) {
                 Sounds.SEMICOLON -> semicolonSound

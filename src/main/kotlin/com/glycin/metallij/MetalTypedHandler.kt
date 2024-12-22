@@ -11,7 +11,7 @@ class MetalTypedHandler: TypedHandlerDelegate() {
         if(!MetalPlayer.ready) return Result.CONTINUE
 
         val document = editor.document
-        println(c)
+
         when(c) {
             '}' -> MetalPlayer.playSound(Sounds.CLOSE_BRACKET)
             ';' -> MetalPlayer.playSound(Sounds.SEMICOLON)
