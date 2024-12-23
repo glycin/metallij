@@ -25,7 +25,6 @@ intellijPlatform  {
         id = "metallij"
         name = "METALLIJ"
         version = v
-        description = "The most metal plugin to have ever existed..."
 
         ideaVersion {
             sinceBuild = "232"
