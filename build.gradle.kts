@@ -7,7 +7,7 @@ plugins {
     id("org.jetbrains.intellij.platform") version "2.2.0"
 }
 
-val v = "0.0.3"
+val v = "0.0.5"
 
 group = "com.glycin"
 version = v
