@@ -14,13 +14,13 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Unleash the power of Metal as you code!<br>
+    <b>Unleash the power of Metal as you code!</b><br>
     Metallij is the most metal IntelliJ plugin that transforms your keyboard into a tool of auditory awesomeness.<br><br>
-    <b>Features</b>
-    Hear roaring tones when you type {, }, ;, public class, System.gc(), or null. <br>
-    Roaring metal tones taken from the awesome song made by <a href="https://www.nanowar.it/">Nanowar of steel</a>, Helloworld.java, with their permission!
+    <b>Features</b><br>
+    Hear roaring tones when you type `{`, `}`, `;`, `public class`, `System.gc()`, or `null`. <br>
+    Roaring metal tones taken from the awesome song made by <a href="https://www.nanowar.it/">Nanowar of steel</a>, <a href="https://www.youtube.com/watch?v=yup8gIXxWDU"/>Helloworld.java</a>, with their permission!
     Let your coding be guided by anthems of chaos and destruction!<br><br>
-    <b>Disclaimer</b>
+    <b>Disclaimer</b><br>
     Use responsibly. Excessive headbanging while coding may lead to misaligned monitors. 🤘
   ]]></description>
 
