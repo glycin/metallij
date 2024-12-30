@@ -28,6 +28,7 @@ intellijPlatform  {
 
         ideaVersion {
             sinceBuild = "232"
+            untilBuild = provider { null }
         }
 
         vendor {
